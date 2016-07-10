@@ -1,15 +1,12 @@
-請說明 Fixnum (整數) 和 Float (浮點數) 之間的差異
-  Float - 帶有小數點的數值. 
-  Fixum - 沒有帶小數點的數值
+ ANS1: <br/>
+  
+ > Float - 帶有小數點的數值. <br/>
+ > Fixum - 沒有帶小數點的數值.
 
-今天有兩個字串：
+  ANS2:<br/>
 
-str1 = "Hallo Welt!" 
-str2 = " NTU Rails 261!"
-請說明以下兩個印出字串的方式的不同處：
-
-puts str1 + str2  ＃一個字串加一個字串會造成記憶體的浪費 
-puts "#{str1}#{str2}" ＃使用字串內插雙引號來避免記憶體的浪費
+> puts str1 + str2  <br/>一個字串加一個字串會造成記憶體的浪費 
+> puts "#{str1}#{str2}" <br/>使用字串內插雙引號來避免記憶體的浪費
 
 
 請解釋 array 和 hash 的不同處
