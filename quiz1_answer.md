@@ -53,11 +53,13 @@
 >協助開發者在debugging可以Runtime 時攔截呼叫物件 ,
 在程式碼裡面插入 binding.pry <br/>
 
-> ``` class CourseController < ApplcationController
-        def show
-          @course = Course.find(params[:id])
-          binding.pry
-  end```
+``` python
+        class CourseController < ApplcationController
+          def show
+              @course = Course.find(params[:id])
+              binding.pry
+        end
+```
 
 ## **ANS10:** <br/>
 #####下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
