@@ -31,16 +31,16 @@
 ####請寫出以下兩行程式碼迴傳的值，並解釋他們呼叫的方法差別為何：
 >uniq與uniq! 皆為移除重覆數值,不同的是使用uniq 如果陣列裡沒有相同的值 將會回傳原值 使用uniq 則會回傳nil <br/>
 
->1.[1, 2, 3, 3].uniq <br/>
+>>1.[1, 2, 3, 3].uniq <br/>
 >[1,2,3] <br/>
->2.[1, 2, 3, 3].uniq! <br/>
+>>2.[1, 2, 3, 3].uniq! <br/>
 >[1,2,3] <br/>
 
 ## **ANS7:** <br/>
 ####請列出兩種產出亂數的方法<br/>
 
->1.rand 
->2.array .shuffle
+>1.  rand 
+>2.  array .shuffle
 
 ## **ANS8:** <br/>
 #####以下這段程式碼：<br/>
@@ -53,24 +53,29 @@
 >協助開發者在debugging可以Runtime 時攔截呼叫物件 ,
 在程式碼裡面插入 binding.pry <br/>
 
-> class CourseController < ApplcationController
+> ``` class CourseController < ApplcationController
         def show
           @course = Course.find(params[:id])
           binding.pry
-  end
+  end```
 
 ## **ANS10:** <br/>
 #####下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
 
-var = 5
+````python
+        var = 5
 
-  if var >= 5
-     return "var is greater than or equal to 5"
-  else
-     return "var is less than 5"
-  end
+          if var >= 5
+             return "var is greater than or equal to 5"
+          else
+             return "var is less than 5"
+          end
+````
 
-```var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"```
+``` 
+var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"
+
+```
 
 ## **ANS11:** <br/>
 ####請列出兩種不同的 hash 寫法 <br /> 
