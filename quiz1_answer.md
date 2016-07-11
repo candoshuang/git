@@ -65,12 +65,13 @@
               def show
                  @course = Course.find(params[:id])
                  binding.pry
-        end ```
+        end 
+```
 
 ## **ANS10:** <br/>
 #####下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
 
-```python
+``` python
         var = 5
 
           if var >= 5
@@ -80,10 +81,7 @@
           end
 ```
 
-``` 
-var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"
-
-```
+`var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"`
 
 ## **ANS11:** <br/>
 ####請列出兩種不同的 hash 寫法 <br /> 
