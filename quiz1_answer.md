@@ -23,7 +23,8 @@
 
 #### 若arry得值不會改變的話使用以下 ：
 >arr.map {|x| x + 2 } <br/>
-####若arry得值會改變的話使用以下 ：
+
+#### 若arry得值會改變的話使用以下 ：
 >arr.map!{|x| x + 2 } <br/>
 
 ## **ANS6:** <br/>
@@ -36,41 +37,41 @@
 >[1,2,3] <br/>
 
 ## **ANS7:** <br/>
-請列出兩種產出亂數的方法
+####請列出兩種產出亂數的方法<br/>
 
-#rand , array .shuffle
+rand , array .shuffle
 
-##**ANS8:** <br/>
-####以下這段程式碼：<br/>
-((1 > 3)&&(true == true))||(!!!false)
-會執行出什麼結果？ 請試試不用 irb 算出結果 <br/>
+## **ANS8:** <br/>
+#####以下這段程式碼：<br/>
+`((1 > 3)&&(true == true))||(!!!false)
+會執行出什麼結果？ 請試試不用 irb 算出結果 `<br/>
 >true
 
 ## **ANS9:** <br/>
-####請問 binding.pry 是什麼？ 要如何使用它？<br/>
-協助開發者在debugging可以Runtime 時攔截呼叫物件
-在程式碼裡面插入 binding.pry
+#####請問 binding.pry 是什麼？ 要如何使用它？<br/>
+>協助開發者在debugging可以Runtime 時攔截呼叫物件 ,
+在程式碼裡面插入 binding.pry <br/>
 
- class CourseController < ApplcationController
+>class CourseController < ApplcationController
   def show
     @course = Course.find(params[:id])
     binding.pry
   end
 
 ## **ANS10:** <br/>
-下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
+#####下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
 
 var = 5
 
-if var >= 5
-  return "var is greater than or equal to 5"
-else
-  return "var is less than 5"
-end
+  if var >= 5
+     return "var is greater than or equal to 5"
+  else
+     return "var is less than 5"
+  end
 
-var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"
+>#### `var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"`
 
 ## **ANS11:** <br/>
 ####請列出兩種不同的 hash 寫法 <br /> 
 >hash={:name => "candos",:email=>"candos33@gmail.com"}<br/>
-h>ash={name:"candos,email:"candos33@gmail.com"}
+>hash={name:"candos,email:"candos33@gmail.com"}
