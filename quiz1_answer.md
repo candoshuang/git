@@ -40,16 +40,18 @@
 ####請列出兩種產出亂數的方法<br/>
 
 >1.  rand 
-```
+`
         rand (0..100)
-```
+`
 >2.  array .shuffle
-``` 
-        (1..100).to_a.shuffle.first
+`
+        (1..100).to_a.shuffle.first `
 
 ## **ANS8:** <br/>
 #####以下這段程式碼：<br/>
-`((1 > 3)&&(true == true))||(!!!false)
+
+```` ((1 > 3)&&(true == true))||(!!!false) ````
+
 會執行出什麼結果？ 請試試不用 irb 算出結果 `<br/>
 >true
 
