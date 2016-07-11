@@ -47,8 +47,6 @@
 ``` 
         (1..100).to_a.shuffle.first
 
-```
-
 ## **ANS8:** <br/>
 #####以下這段程式碼：<br/>
 `((1 > 3)&&(true == true))||(!!!false)
@@ -66,7 +64,6 @@
                  @course = Course.find(params[:id])
                  binding.pry
         end
-```
 
 ## **ANS10:** <br/>
 #####下面的一段程式碼，請嘗試用其他方法把 if...else...end 簡化成一行 <br/>
