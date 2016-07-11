@@ -39,7 +39,8 @@
 ## **ANS7:** <br/>
 ####請列出兩種產出亂數的方法<br/>
 
-rand , array .shuffle
+>1.rand 
+>2.array .shuffle
 
 ## **ANS8:** <br/>
 #####以下這段程式碼：<br/>
@@ -52,10 +53,10 @@ rand , array .shuffle
 >協助開發者在debugging可以Runtime 時攔截呼叫物件 ,
 在程式碼裡面插入 binding.pry <br/>
 
->class CourseController < ApplcationController
-  def show
-    @course = Course.find(params[:id])
-    binding.pry
+> class CourseController < ApplcationController
+        def show
+          @course = Course.find(params[:id])
+          binding.pry
   end
 
 ## **ANS10:** <br/>
@@ -69,7 +70,7 @@ var = 5
      return "var is less than 5"
   end
 
->#### `var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"`
+```var >=5 ? puts "var is greater than or equal to 5" : "var is less than 5"```
 
 ## **ANS11:** <br/>
 ####請列出兩種不同的 hash 寫法 <br /> 
