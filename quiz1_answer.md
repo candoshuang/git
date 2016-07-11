@@ -51,13 +51,13 @@
 ## **ANS9:** <br/>
 #####請問 binding.pry 是什麼？ 要如何使用它？<br/>
 >協助開發者在debugging可以Runtime 時攔截呼叫物件 ,
-在程式碼裡面插入 binding.pry <br/>
+在程式碼裡面插入 binding.pry , ex :<br/>
 
 ``` python
         class CourseController < ApplcationController
-          def show
-              @course = Course.find(params[:id])
-              binding.pry
+              def show
+                 @course = Course.find(params[:id])
+                 binding.pry
         end
 ```
 
