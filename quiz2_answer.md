@@ -32,27 +32,27 @@ end
 ## **Ans3:** <br/>
 
 ####請說明 class variable 和 instance variable 之間的差別
-> instance variable 可以在同一個class的各種method之間互相傳遞,ex:
+> 1.instance variable 可以在同一個class的各種method之間互相傳遞,ex:
 ｀        
      def index
          @users=user.all
      end
  `
->class variables 則是用在整個類別中,ex:
+>2.class variables 則是用在整個類別中,ex:
 ````        
             class cat
-             @@number_of cats==0
+                @@number_of cats==0
               def initialize
-              @@number_of_cats+=1
+               @@number_of_cats+=1
               end
             end
-```` <br/>
+````
 
 ## **Ans4:**<br/> 
 
 ####請說明 class method 和 instance method 之間的差別
->class method針對類別本身呼叫，不需要產生instance即可使用
->instance method需要先由類別產生物件，再由物件來呼叫
+>class method針對類別本身呼叫，不需要產生instance即可使用 <br/>
+>instance method需要先由類別產生物件，再由物件來呼叫 <br/>
 
 ## **Ans5:**<br/>
 
@@ -60,9 +60,9 @@ end
 ````        
             class User
               def initialize (name,gender,jobtitle)
-              @name = name
-              @gender =gender
-              @jobtitle =jobtitle
+                 @name = name
+                 @gender =gender
+                 @jobtitle =jobtitle
               end
             end
 ```` 
