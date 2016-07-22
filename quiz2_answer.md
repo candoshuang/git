@@ -21,14 +21,11 @@ module  wing
       puts "I can fly !!"
    end
 end
-
    class dog
       include wing
    end
-
    Snoopy = dog.new
    Snoopy.fly 
-
 ````
 ####以上 使用wing 模組, i can fly , 後小狗類別就可以使用include得到fly的模組 <br/>
 
